@@ -2,10 +2,12 @@
 
 ## PHP implementation of angular sweep algorithm
 
-Solved issue of finding maximum points that can be enclosed in a circle of given radius and getting the center of this point.
+Solves issue of finding maximum points that can be enclosed in a circle of given radius and getting the center of this point.
 
 [https://en.wikipedia.org/wiki/Visibility_polygon#Angular_sweep](https://en.wikipedia.org/wiki/Visibility_polygon#Angular_sweep)
+
 [https://www.geeksforgeeks.org/angular-sweep-maximum-points-can-enclosed-circle-given-radius/](https://www.geeksforgeeks.org/angular-sweep-maximum-points-can-enclosed-circle-given-radius/)
+
 [https://github.com/pear/Math_Complex/blob/master/Math/Complex.php](https://github.com/pear/Math_Complex/blob/master/Math/Complex.php)
 
 ### Installation

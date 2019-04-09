@@ -71,7 +71,7 @@ class AngularSweep
      */
     private function calculateDistances()
     {
-        for ($i = 0; $i < $this->numbersCollection->total()-1; $i++) {
+        for ($i = 0; $i < $this->numbersCollection->total() - 1; $i++) {
             for ($j = $i + 1; $j < $this->numbersCollection->total(); $j++) {
                 $this->distances[$i][$j] = $this->distances[$j][$i] =
                     $this->numbersCollection->get($i)->subtract($this->numbersCollection->get($j))->abs();
@@ -108,8 +108,8 @@ class AngularSweep
         $angles = [];
 
         for ($j = 0; $j < $this->numbersCollection->total(); $j++) {
-            if ($i !== $j && $this->distances[$i][$j] <= 2*$this->radius) {
-                $B = acos($this->distances[$i][$j]/(2*$this->radius));
+            if ($i !== $j && $this->distances[$i][$j] <= 2 * $this->radius) {
+                $B = acos($this->distances[$i][$j] / (2 * $this->radius));
                 $A = $this->numbersCollection->get($j)->subtract($this->numbersCollection->get($i))->arg();
                 $alpha = $A - $B;
                 $beta = $A + $B;
