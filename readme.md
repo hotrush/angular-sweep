@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/hotrush/angular-sweep.svg?branch=master)](https://travis-ci.org/hotrush/angular-sweep)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hotrush/angular-sweep/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hotrush/angular-sweep/?branch=master)
+[![Packagist](https://img.shields.io/packagist/v/hotrush/angular-sweep.svg?label=Packagist)](https://packagist.org/packages/hotrush/angular-sweep)
 
 ## PHP implementation of angular sweep algorithm
 
